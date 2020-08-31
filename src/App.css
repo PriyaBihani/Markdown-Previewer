@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #ff495c;
+    height: 50px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.box {
+    display: inline-block;
+    font-family: "Raleway";
+    font-size: 100%;
+    margin: 2vw 9vw;
+    min-height: 75vh;
+    padding-left: 1vw;
+    text-align: left;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.left {
+    background-color: #ffe4e1;
+    padding-top: 1vw;
+}
+
+.right {
+    background-color: #e6e6fa;
+    float: right;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    padding-bottom: 0.2em;
+    width: 100%;
+}
